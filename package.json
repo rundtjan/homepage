@@ -1,0 +1,11 @@
+{
+  "name": "bargain",
+  "version": "0.0.0",
+  "description": "Distinct traits",
+  "main": "server.js",
+  "repository": "",
+  "author": "Hello",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
