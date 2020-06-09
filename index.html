@@ -60,8 +60,12 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
+.show {
+  display: none;
+}
+
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 760px) {
+@media only screen and (max-device-width: 1000px) {
   ul {
     list-style: none;
   }
@@ -72,6 +76,9 @@ body, html {
   .hide {
     display: none;
   }
+  .show {
+  display: inline;
+}
 }
 </style>
 <body>
@@ -142,6 +149,11 @@ body, html {
       <li>Bra diskussioner</li>
     </ul>
     </h3>
+    <div class="w3-center show" style="padding-bottom: 16 px">
+      <h3>Välmående-dagarna</h3>
+      <h3>Tur nog på hösten</h3>
+      <h3>Bra diskussioner</h3>
+    </div>
 
     <div class="w3-row-padding w3-center">
         <div class="w3-col m3">
